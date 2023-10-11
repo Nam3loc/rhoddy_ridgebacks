@@ -3,53 +3,44 @@
 }
 
 .outer {
-  width: 88dvw;
-  height: 60dvh;
+  /* width: 88dvw;
+  height: 60dvh; */
   background-color: gray;
-  border: 2px solid black;
+  /* border: 2px solid black;
   position: relative;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 .left {
-  width: 31.875%;
-  height: 58.5%;
+  /* width: 31.875%;
+  height: 58.5%; */
   background-color: black;
-  color: white;
+  /* color: white;
   border: 2px solid black;
   position: absolute;
   left: 150px;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
 .right {
-  width: 52.5%;
-  height: 58.5%;
+  /* width: 52.5%;
+  height: 58.5%; */
   background-color: white;
-  border: 2px solid black;
+  /* border: 2px solid black;
   position: absolute;
   right: 150px;
-  border-radius: 10px;
+  border-radius: 10px; */
 }
 
-/*
-Create a getAllowed transfers for every grant in the fundApp
-Then we need to call that in the front :endthe front end should try to look up and find the matching transfer key and then apply it to the bnew created :only-of-typeThe front end will already attempt to prepopulate
-FE will try to verify that it is the correct GrantAllocateTranfserKey
+@media screen and (min-width: 1920px) {
 
-In frontend can use the service to handle the functionality
-Actually it is going to have to be something more like
-From the backend from the fundApp we are going to need to pair 3 values together (allocateTranferKey, fromKey, and toKey)
-in the original model request it is giving a fundappinstance key
-in order to find the allocateTransfer key, we have to know the from and the to
-The backend has to handle that so that later the frontend can search
+}
 
-the new query will return a list where the values in the list are those three items together
+.contactInfo {
+  color: white;
+}
 
-in the ngOnInit getmodel, add the data (list of the three items together)
-then the transferFunds will need to do a lookuop of the list to find that matching allocate transferKeye
-
-backend then has to verify that it is a real key and the right key, and if they havent provided then say it is not an allowed transfer
-
-can mock up data in db.json... may have to add fake data to see that its working
-*/
+.line {
+  color: black;
+  width: auto;
+}
