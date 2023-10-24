@@ -1,0 +1,23 @@
+@media screen and (max-width: 750px) {
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30%;
+  }
+
+  .nav-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+  }
+
+  .nav-title {
+    display: none;
+  }
+
+  .icons {
+    display: none;
+  }
+}
